@@ -29,7 +29,7 @@ def healthz():
 @app.route("/v1/metadata", methods=["GET"])
 def metadata():
     return jsonify({
-        "team_name": "Antigravity",
+        "team_name": "Shubham_Singhal",
         "model": "gemini-pro-latest" if api_key else "fallback-heuristic"
     })
 
